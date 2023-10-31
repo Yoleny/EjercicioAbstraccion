@@ -6,19 +6,18 @@ using System.Threading.Tasks;
 
 namespace Abstraccion
 {
-    internal  abstract class Vehiculo
+    internal abstract class Vehiculo
     {
-        public string? Marca;
-        public string? Modelo;
-        public bool matricula;
-        public bool año;
 
-        public abstract void
-            MetodoAstracto1();
-        public abstract void
-            MetodoAstracto2();
-        public abstract void
-            MetodoAbstratcto3();
+        public string? Modelo;
+        public string? matricula;
+        public string? Marca;
+        public string? año;
+
+        public abstract void imprimir();
+
+        public abstract bool validar();
+        
     }
 
 }
