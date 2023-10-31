@@ -8,8 +8,8 @@ namespace Abstraccion
 {
     internal abstract class Vehiculo
     {
-
-        public string? Modelo;
+        public string? nombreVehiculo;
+        public string? Color;
         public string? matricula;
         public string? Marca;
         public string? año;
